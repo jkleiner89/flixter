@@ -2,17 +2,30 @@
 
 @import "bootstrap";
 
-.btn {
-  background-color: transparent;
+body {
+  background: image_url('bg.png');
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar {
-  margin: 0;
-  color: #FDFDFD;
+.btn {
+  background-color: transparent;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  background-color: transparent;
+  opacity: 0.9;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .frosty h1 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
   font-weight: 100;
   color: white;
   text-shadow: #212121;
@@ -25,6 +38,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
   text-shadow: #212121;
 }
 
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+  color: #212121;
+}
+
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -32,17 +50,15 @@ h1, h2, h3, h4, h5, h6, .navbar {
   -o-background-size: cover;
   background-size: cover;
   height: 370px;
-  box-shadow: 0px 3px 6px #212121;
+  box-shadow: 0px 2px 6px #212121;
 }
 
 .navbar {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-  box-shadow: 0px 1px 2px #2a2a2a;
+  font-weight: 100;
+  box-shadow: 0px 3px 6px #212121;
   /* background: image_url('vintage-wallpaper.png'); */
-  color: white;
 }
-
 .navbar-inverse a.navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
